@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">simplechatapp</string>
+    <string name="edt_email">E-Mail</string>
+    <string name="edt_password">Password</string>
+    <string name="edt_login">Log in</string>
+    <string name="rgs_your_name">Your Name</string>
+    <string name="rgs_sign_up">SIGN UP</string>
+    <string name="edt_register">Dont have an account? Sign up.</string>
+    <string name="app_name_textview">Beer Chat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>
