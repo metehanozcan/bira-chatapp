@@ -58,7 +58,7 @@ class Login : AppCompatActivity() {
 
             val email = edtEmail.text.toString()
             val password = edtPassword.text.toString()
-            if(email.length<15 || password.length<6){
+            if(email.length<8 || password.length<6){
                 Toast.makeText(baseContext, "Insert Valid Email or Password.",Toast.LENGTH_SHORT).show()
 
 
@@ -80,6 +80,7 @@ class Login : AppCompatActivity() {
                         // Sign in success, update UI with the signed-in user's information
 
                         val intent = Intent(this@Login,MainActivity::class.java)
+                        finish()
                         startActivity(intent)
 
                     } else {                        // If sign in fails, display a message to the user.

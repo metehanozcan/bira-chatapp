@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/page_1"
+        android:id="@+id/developer"
         android:enabled="true"
-        android:title="Kişiler"/>
-    <item
-        android:id="@+id/page_3"
-        android:enabled="true"
-        android:title="Mesajlar"/>
-    <item
-        android:id="@+id/page_4"
-        android:enabled="true"
-        android:title="Ayarlar"/>
+        android:title="Metehan Özcan"/>
     <item
         android:id="@+id/logout"
         android:enabled="true"

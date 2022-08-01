@@ -14,9 +14,12 @@
         android:theme="@style/Theme.Simplechatapp"
         tools:targetApi="31">
         <activity
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
             android:name=".Signup"
             android:exported="false"
-            android:theme="@style/Theme.Simplechatapp.NoActionBar"/>
+            android:theme="@style/Theme.Simplechatapp.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
@@ -30,8 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>
